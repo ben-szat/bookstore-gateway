@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // No JavaScript output will be emitted
+    "resolveJsonModule": true,
+    "outDir": "./dist"
+  }
+}
