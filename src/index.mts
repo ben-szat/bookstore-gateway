@@ -13,7 +13,7 @@ const gateway = new ApolloGateway({
 
 // Pass the ApolloGateway to the ApolloServer constructor
 const server = new ApolloServer({
-  gateway,
+  gateway
 });
 
 const { url } = await startStandaloneServer(server);
